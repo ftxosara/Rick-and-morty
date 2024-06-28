@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+  background-image: url('./nocherick.jpg'); /* Usar la imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.App h1 {
+  font-size: 3rem;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.App h1:hover {
+  color: #7FFFD4; /* Aguamarina */
+}
+
+.character-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.character-card {
+  border: 1px solid #444; /* Borde gris oscuro */
+  margin: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: left;
+  background-color: #0892eede; /* Azul noche */
+  color: #FFFFFF; /* Texto blanco */
+  transition: transform 0.3s ease-in-out;
+}
+
+.character-card:hover {
+  transform: scale(1.05);
+}
+
+.character-card h2 {
+  transition: color 0.3s ease-in-out;
+}
+
+.character-card h2:hover {
+  color: #FFF44F; /* Amarillo Limón */
+}
+
+.character-detail {
+  margin-top: 10px;
+}
+
+.character-detail img {
+  width: 100%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #7FFFD4; /* Aguamarina */
+  color: #333;
+}
+
+.episode-list {
+  max-height: 150px;
+  overflow-y: auto;
+  margin-top: 10px;
+}
+
+.episode-list ul {
+  padding-left: 20px;
+}
+
+.episode-list li {
+  margin-bottom: 5px;
+}
+
+.episode-list a {
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.episode-list a:hover {
+  color: #FFF44F; /* Amarillo Limón */
+}
